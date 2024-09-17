@@ -1,0 +1,94 @@
+@font-face {
+    font-family: "Outfit";
+    src: url(/Outfit-VariableFont_wght.ttf);
+    }
+    @font-face {
+        font-family: "youngseriff";
+        src: url(/YoungSerif-Regular.ttf);
+    }
+body{
+    background-color: #fce9ec;
+    box-sizing: border-box;
+    font-weight: 400;
+}
+
+.main{ 
+    margin: auto;
+    width: 50%; 
+  border: 3px solid white;
+  background-color: white;
+  padding: 10px;
+  margin-top:3em;
+  border-radius: 20px;
+  overflow: hidden;
+}
+.img-div{
+    width: 98%;
+    
+    border-radius: 5px;
+}
+ .img-div>.oml {
+    width: 100%;
+    height: auto;
+    border-radius: 5%;
+        object-fit: contain;
+}
+nav{border-bottom: 2px solid hsl(30, 18%, 87%);}
+h1{
+  font-family: 'youngseriff';
+  font-weight: 600;
+}
+p, ul, ol, .one{
+    font-family: 'Outfit' ;
+    color: hsl(30, 10%, 34%);
+    line-height: 1.5;
+    text-align: justify;
+}
+h3{
+    font-family: 'youngseriff';
+    font-weight: 500;
+    color: hsl(332, 51%, 32%);
+    margin-left: 20px:;
+}
+h2, .two{
+    font-family: 'youngseriff';
+    font-weight: 500;
+    color:  hsl(14, 45%, 36%);
+  }
+  span{
+    font-weight: bold;
+  }
+  table{
+    width: 100%;
+margin-left: 30px;
+overflow: hidden;}
+    
+  .one, .two{
+    border-bottom: 1px solid hsl(30, 18%, 87%);
+    margin: 2px;
+    font-size: 16px;
+    line-height: 35px;
+    overflow: scroll;
+  }
+/* for smaller devices */
+
+@media only screen and (max-width: 768px) {
+  body{
+    background-color: white;
+    overflow: scroll;
+  }
+  .main{ 
+    margin: auto;
+    width: 95%; 
+    height: auto;
+  border: 1px solid white;
+  background-color: white;
+  padding: 10px;
+   border-radius: 20px;
+  
+}
+p{
+  font-size: 15px;
+}
+  
+}
